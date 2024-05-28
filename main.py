@@ -40,7 +40,7 @@ def get_and_process_message():
         )
         return response.choices[0].message.content
 
-    # Function to handle parallel attempts
+    
     def attempt_get_response(client, message, attempt_count, lock, debug):
         response_text = get_response(client, message)
         if debug:
@@ -71,7 +71,7 @@ def get_and_process_message():
     else:
         print(Fore.RED + "No valid response was obtained after several attempts.")
 
-# Main loop to keep asking for messages until the user decides to stop
+
 while True:
     get_and_process_message()
     user_input = input("Do you want to enter another message? (yes/no): ").lower()
