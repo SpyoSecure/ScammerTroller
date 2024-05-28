@@ -18,7 +18,6 @@ Run the program to generate funny and trolling responses. Here is the step-by-st
     - Navigate to the directory where the `main.py` file is located.
 
 2. **Run the program**:
-![0f6ab209f2cfe06d0171b5c97d183675](https://github.com/SpyoSecure/ScammerTroller/assets/99617815/bc6ba30e-e368-4f2f-a0cd-3674814d5692)
 
     ```bash
     python main.py
