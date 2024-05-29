@@ -1,7 +1,7 @@
 # SpyoSecure-Scammer-Troller
 This is a program designed to help you generate humorous and trolling responses to your scammers' messages using AI.
 
-To run this script you will need to install some python libraries. Use this command first:
+To run this script, you will need to install some python libraries. Use this command first:
 
 ```bash
 pip install -r requirements.txt
